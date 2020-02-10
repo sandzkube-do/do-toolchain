@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/Users/edmcbee/DEV"
+		},
+		{
+			"name": "backend",
+			"path": "/Users/edmcbee/DEV/test/demo-crc/backend"
+		},
+		{
+			"name": "frontend",
+			"path": "/Users/edmcbee/DEV/test/demo-crc/frontend"
+		}
+	],
+	"settings": {}
+}
