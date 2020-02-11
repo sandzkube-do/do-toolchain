@@ -59,7 +59,8 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
 
 ## Operating CRC
 
-### Available Commands:
+### Available Commands
+
   config      Modify crc configuration
   console     Open the OpenShift Web Console in the default browser
   delete      Delete the OpenShift cluster
@@ -71,6 +72,8 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
   status      Display status of the OpenShift cluster
   stop        Stop the OpenShift cluster
   version     Print version information
+
+[Or go ahead to our own experiences on using CRC](crc/README.md)
 
 ### Install Minikube
 
