@@ -3,7 +3,7 @@
 CodeReady Containers is a tool that manages a local OpenShift 4.x cluster optimized for testing and development purposes
 
 Usage:
-``
+```
   crc [flags]
   crc [command]
 ```
