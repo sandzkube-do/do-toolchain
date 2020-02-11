@@ -43,7 +43,8 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
 
   On macOS, CodeReady Containers requires macOS 10.12 Sierra or newer. CodeReady Containers does not work on earlier versions of macOS.
 
-  In a Mac, the supported hypervisor is Hyperkit and Virtualbox. [Download the binaries for Hyperkit](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-macos-amd64.tar.xz)
+  In a Mac, the supported hypervisors are Hyperkit and Virtualbox. [Download the binaries for Hyperkit here](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-macos-amd64.tar.xz)
+  [Download the binaries for Virtualbox here](https://mirror.openshift.com/pub/openshift-v4/clients/crc/1.2.0/crc_virtualbox_4.2.8.crcbundle). Note: RH seem to have stopped developing new versions for this.
 
 ### Install CRC on Linux
 
@@ -52,17 +53,21 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
   * Ubuntu 18.04 LTS or newer and Debian 10 or newer are not officially supported and may require manual set up of the host machine.
   * See Section 1.4, “Required software packages” to install the required packages for your Linux distribution.
 
+  [Download the binaries for Linux KVM here](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-linux-amd64.tar.xz)
+
 ### Install Minikube
 
-  #### Minikube on Windows
-  #### Minikube on Mac
-  #### Minikube on Linux
+  [Minikube installer](https://kubernetes.io/docs/tasks/tools/install-minikube/)
 
-  ### Install Minishift
+#### Minikube on Windows
+#### Minikube on Mac
+#### Minikube on Linux
 
-  #### Minishift on Windows
-  #### Minikube on Mac
-  #### Minikube on Linux
+### Install Minishift
+
+#### Minishift on Windows
+#### Minikube on Mac
+#### Minikube on Linux
 
 ## ODO
 
