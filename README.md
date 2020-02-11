@@ -8,9 +8,9 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
 
   As DevOps, whether you are a Developer or Ops/SRE specializing for cloud-native applications, it is highly recommended that you have the capability to bring up an enterprise kubernetes instance like Openshift in your laptop/desktop. Top of mind in this particular case is the CRC or Code-Ready Containers to experience openshift 4.x. 
   
-  Alternatively, the Developer/Ops/SRE wearing the DevOps can also opt to get dirty or have theri hands soiled with other open-source tools like Minikube or try out the older version 3 of Openshift.
+  Alternatively, the Developer/Ops/SRE wearing the DevOps can also opt to get dirty or have their hands soiled with other open-source tools like Minikube or try out the older version 3 of Openshift.
 
-  ### Prerequisites
+### Prerequisites
 
   As a DevOps whether your role is a Developer and/or SRE, always make sure that you have the following language engines installed:
 
@@ -21,13 +21,38 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
   5. A github account and own simple repository for your personal/professional Dev/SRE profile. Optionally, setup your own domain for it.
   6. Have a Redhat Developer Account
 
-  ### Install CRC on Windows
+  To get started, open, login and click the Get Started link in [Openshift 4](https://try.openshift.com), select Clusters and then select "Run on Laptop". Fortunately, RH invested substantially to provide an installer (IPI) that made it very convenient for us mortals to quickly experience Openshift 4 and be productive with it on Day 2, even if we're offline from our respective on-prem or public DC clouds.
 
-  To get started, open, login and click the Get Started link in [Openshift 4](https://try.openshift.com), select Clusters and then select "Run on Laptop". Fortunately, RH invested substantially to provide an installer that made it very convenient for us mortals to quickly experience Openshift 4 and be productive with it on Day 2, even if we're offline from our respective on-prem or public DC clouds.
+  It is highly recommended that before we dive too deep into installing CRC, read the [getting started guide](https://access.redhat.com/documentation/en-us/red_hat_codeready_containers) first to understand the basic nuances and idiosyncracies of provisioning CRC into your laptop and OS of choice. Select the version that suits your need or simply choose the latest.
 
-  ### Install CRC on Mac
-  ### Install CRC on Linux
-  ### Install Minikube
+  As a general requirement, make sure your machine sufficiently meets the following minimum specifications:
+
+  1. 4 core or virtual CPUs
+  2. 16 Gb memory
+  3. At least 35 Gb storage
+
+  Download a copy of the Pull Secret file.
+
+### Install CRC on Windows
+
+  On Microsoft Windows, CodeReady Containers requires the Windows 10 (Pro or Home) Fall Creators Update (version 1709). CodeReady Containers does not work on earlier versions or editions of Microsoft Windows.
+
+  In Windows, the hypervisor is Hyper-v. [Download the binaries for Hyper-V](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-windows-amd64.zip)
+
+### Install CRC on Mac
+
+  On macOS, CodeReady Containers requires macOS 10.12 Sierra or newer. CodeReady Containers does not work on earlier versions of macOS.
+
+  In a Mac, the supported hypervisor is Hyperkit and Virtualbox. [Download the binaries for Hyperkit](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-macos-amd64.tar.xz)
+
+### Install CRC on Linux
+
+  * On Linux, CodeReady Containers is only supported on Red Hat Enterprise Linux/CentOS 7.5 or newer (including 8.x versions) and on the latest two stable Fedora releases.
+  * When using Red Hat Enterprise Linux, the machine running CodeReady Containers must be registered with Red Hat Customer Portal.
+  * Ubuntu 18.04 LTS or newer and Debian 10 or newer are not officially supported and may require manual set up of the host machine.
+  * See Section 1.4, “Required software packages” to install the required packages for your Linux distribution.
+
+### Install Minikube
 
   #### Minikube on Windows
   #### Minikube on Mac
