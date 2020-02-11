@@ -60,7 +60,7 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
 ## Operating CRC
 
 ### Available Commands
-
+```
   config      Modify crc configuration
   console     Open the OpenShift Web Console in the default browser
   delete      Delete the OpenShift cluster
@@ -72,7 +72,7 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
   status      Display status of the OpenShift cluster
   stop        Stop the OpenShift cluster
   version     Print version information
-
+```
 [Or go ahead to our own experiences on using CRC](crc/README.md)
 
 ### Install Minikube
@@ -93,23 +93,27 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
   [Official Kubectl Reference](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
   Basic Commands (Beginner):
+```
   create         Create a resource from a file or from stdin.
   expose         Take a replication controller, service, deployment or pod and expose it as a new Kubernetes Service
   run            Run a particular image on the cluster
   set            Set specific features on objects
-
+```
 Basic Commands (Intermediate):
+```
   explain        Documentation of resources
   get            Display one or many resources
   edit           Edit a resource on the server
   delete         Delete resources by filenames, stdin, resources and names, or by resources and label selector
-
+```
 Deploy Commands:
+```
   rollout        Manage the rollout of a resource
   scale          Set a new size for a Deployment, ReplicaSet, Replication Controller, or Job
   autoscale      Auto-scale a Deployment, ReplicaSet, or ReplicationController
-
+```
 Cluster Management Commands:
+```
   certificate    Modify certificate resources.
   cluster-info   Display cluster info
   top            Display Resource (CPU/Memory/Storage) usage.
@@ -117,7 +121,7 @@ Cluster Management Commands:
   uncordon       Mark node as schedulable
   drain          Drain node in preparation for maintenance
   taint          Update the taints on one or more nodes
-
+```
 ## Openshift CLI
 
   * [V3](https://mirror.openshift.com/pub/openshift-v3/clients/)
@@ -185,7 +189,8 @@ Usage:	docker [OPTIONS] COMMAND
 A self-sufficient runtime for containers
 
 Options:
-      --config string      Location of client config files (default "/Users/edmcbee/.docker")
+```
+  --config string      Location of client config files (default "/Users/edmcbee/.docker")
   -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker context use")
   -D, --debug              Enable debug mode
   -H, --host list          Daemon socket(s) to connect to
@@ -196,8 +201,9 @@ Options:
       --tlskey string      Path to TLS key file (default "/Users/edmcbee/.docker/key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
-
+```
 Management Commands:
+```
   builder     Manage builds
   config      Manage Docker configs
   container   Manage containers
@@ -213,8 +219,9 @@ Management Commands:
   system      Manage Docker
   trust       Manage trust on Docker images
   volume      Manage volumes
-
+```
 Commands:
+```
   attach      Attach local standard input, output, and error streams to a running container
   build       Build an image from a Dockerfile
   commit      Create a new image from a container's changes
@@ -255,16 +262,18 @@ Commands:
   update      Update configuration of one or more containers
   version     Show the Docker version information
   wait        Block until one or more containers stop, then print their exit codes
-
+```
 ## Podman CLI
 
 manage pods and images
 
 Usage:
+```
   podman [flags]
   podman [command]
-
+```
 Available Commands:
+```
   attach      Attach to a running container
   build       Build an image using instructions from Dockerfiles
   commit      Create new image based on the changed container
@@ -307,9 +316,10 @@ Available Commands:
   version     Display the Podman Version Information
   volume      Manage volumes
   wait        Block on one or more containers
-
+```
 Flags:
-      --connection string           remote connection name
+```
+  --connection string           remote connection name
   -h, --help                        help for podman
       --log-level string            Log messages above specified level: debug, info, warn, error, fatal or panic. Logged to ~/.config/containers/podman.log (default "error")
       --port int                    port on remote host (default 22)
@@ -318,12 +328,14 @@ Flags:
       --syslog                      Output logging information to syslog as well as the console
       --username string             username on the remote host (default "edmcbee")
   -v, --version                     Version of podman
-
+```
 ## Ansible
 
 [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 
-usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD]
+usage: 
+```
+    ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD]
                [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts]
                [-l SUBSET] [-P POLL_INTERVAL] [-B SECONDS] [-o] [-t TREE] [-k]
                [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER]
@@ -337,13 +349,14 @@ usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD]
                [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
                [-a MODULE_ARGS] [-m MODULE_NAME]
                pattern
-
+```
 Define and run a single task 'playbook' against a set of hosts
 
 positional arguments:
   pattern               host pattern
 
 optional arguments:
+```
   --ask-vault-pass      ask for vault password
   --list-hosts          outputs a list of matching hosts; does not execute
                         anything else
@@ -393,10 +406,10 @@ optional arguments:
   -t TREE, --tree TREE  log output to this directory
   -v, --verbose         verbose mode (-vvv for more, -vvvv to enable
                         connection debugging)
-
+```
 Privilege Escalation Options:
   control how and which user you become as on target hosts
-
+```
   --become-method BECOME_METHOD
                         privilege escalation method to use (default=sudo), use
                         `ansible-doc -t become -l` to list valid choices.
@@ -406,10 +419,10 @@ Privilege Escalation Options:
                         ask for privilege escalation password
   -b, --become          run operations with become (does not imply password
                         prompting)
-
+```
 Connection Options:
   control as whom and how to connect to hosts
-
+```
   --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
                         use this file to authenticate the connection
   --scp-extra-args SCP_EXTRA_ARGS
@@ -430,7 +443,7 @@ Connection Options:
   -k, --ask-pass        ask for connection password
   -u REMOTE_USER, --user REMOTE_USER
                         connect as this user (default=None)
-
+```
 ## Editors
 
 
