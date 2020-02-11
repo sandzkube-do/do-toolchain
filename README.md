@@ -117,8 +117,8 @@ Cluster Management Commands:
 
 ## Openshift CLI
 
-  [V3](https://mirror.openshift.com/pub/openshift-v3/clients/)
-  [V4](https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/)
+  * [V3](https://mirror.openshift.com/pub/openshift-v3/clients/)
+  * [V4](https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/)
 
   OpenShift Client
 
@@ -437,7 +437,7 @@ Connection Options:
 ### Private Container Registry
 
   [Quay as a Container](https://github.com/quay/quay/blob/master/docs/development-container.md)
-  
+
 ### Private Repo Service
 
 #### Gitea
