@@ -57,9 +57,9 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
 
   [Download the binaries for Linux KVM here](https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-linux-amd64.tar.xz)
 
-## Operating CRC
+### Operating CRC
 
-### Available Commands
+#### Available Commands
 ```
   config      Modify crc configuration
   console     Open the OpenShift Web Console in the default browser
@@ -83,11 +83,11 @@ These tools includes the Kubernetes CLI (kubectl), Openshift CLI (oc), Openshift
 
   [Minishift installer](https://docs.okd.io/latest/minishift/getting-started/installing.html)
 
-## Kubernetes Client CLI
+### Kubernetes Client CLI
 
   The Kubernetes client, kubectl, controls and manages the kubernetes cluster at the command line.
 
-### Install kubectl
+#### Install kubectl
 
   [K8 Reference](https://kubernetes.io/docs/reference/kubectl/overview/)
   [Official Kubectl Reference](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
@@ -122,7 +122,7 @@ Cluster Management Commands:
   drain          Drain node in preparation for maintenance
   taint          Update the taints on one or more nodes
 ```
-## Openshift CLI
+#### Openshift CLI
 
   * [V3](https://mirror.openshift.com/pub/openshift-v3/clients/)
   * [V4](https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/)
@@ -152,7 +152,7 @@ Cluster Management Commands:
   ```
     oc new-app -L
   ```
-## Openshift DO (ODO) CLI
+### Openshift DO (ODO) CLI
 
   [ODO Installer](https://mirror.openshift.com/pub/openshift-v4/clients/odo/latest/)
 
@@ -183,7 +183,9 @@ Cluster Management Commands:
     odo list
     odo log
   ```
-## Docker CLI
+## Container Management
+
+### Docker CLI
 Usage:	docker [OPTIONS] COMMAND
 
 A self-sufficient runtime for containers
@@ -263,7 +265,7 @@ Commands:
   version     Show the Docker version information
   wait        Block until one or more containers stop, then print their exit codes
 ```
-## Podman CLI
+### Podman CLI
 
 manage pods and images
 
@@ -329,7 +331,9 @@ Flags:
       --username string             username on the remote host (default "edmcbee")
   -v, --version                     Version of podman
 ```
-## Ansible
+## Infrastructure as code
+
+### Ansible
 Define and run a single task 'playbook' against a set of hosts
 
 [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
@@ -351,7 +355,7 @@ usage:
                [-a MODULE_ARGS] [-m MODULE_NAME]
                pattern
 ```
-## Ansible Playbook
+### Ansible Playbook
 Runs Ansible playbooks, executing the defined tasks on the targeted hosts.
 
 usage: 
@@ -373,11 +377,13 @@ usage:
                         [--list-tags] [--step] [--start-at-task START_AT_TASK]
                         playbook [playbook ...]
 ```
-## Editors
+### Terraform
 
 
 
 ## Misc SERVICES
+
+### Editors
 
 ### Private Container Registry
 
@@ -387,7 +393,7 @@ usage:
 
 #### Gitea
 
-### Jenkins
+#### Jenkins
 
 ### Jenkins-X
 
